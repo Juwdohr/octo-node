@@ -1,0 +1,27 @@
+{
+  "name": "octo-node",
+  "version": "1.0.0",
+  "description": "A Node version of OctoPrint",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "npm": ">=6.14.4",
+    "node": ">=13.12.0"
+  },
+  "author": "Juwdohr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juwdohr/octo-node.got.git"
+  },
+  "keywords": [
+    "OctoPrint",
+    "MERN Stack"
+  ],
+  "bugs": {
+    "url": "https://github.com/Juwdohr/octo-node.got/issues"
+  },
+  "homepage": "https://github.com/Juwdohr/octo-node.got#readme"
+}
