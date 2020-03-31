@@ -4,10 +4,12 @@
   "description": "A Node version of OctoPrint",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "build:server": "webpack --config webpack.client.config.js",
+    "start": "node dist/server.js"
   },
   "engines": {
-    "npm": ">=6.14.4",
+    "pnpm": ">=6.14.4",
     "node": ">=13.12.0"
   },
   "author": "Juwdohr",
@@ -23,5 +25,19 @@
   "bugs": {
     "url": "https://github.com/Juwdohr/octo-node.got/issues"
   },
-  "homepage": "https://github.com/Juwdohr/octo-node.got#readme"
+  "homepage": "https://github.com/Juwdohr/octo-node.got#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "helmet": "^3.22.0",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^5.9.7",
+    "passport": "^0.4.1"
+  }
 }
