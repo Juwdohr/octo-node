@@ -26,18 +26,13 @@
     "url": "https://github.com/Juwdohr/octo-node.got/issues"
   },
   "homepage": "https://github.com/Juwdohr/octo-node.got#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "compression": "^1.7.4",
-    "connect-mongo": "^3.2.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "es6-promise": "^4.2.8",
-    "express": "^4.17.1",
-    "express-session": "^1.17.0",
-    "helmet": "^3.22.0",
-    "isomorphic-fetch": "^2.2.1",
-    "mongoose": "^5.9.7",
-    "passport": "^0.4.1"
+  "devDependencies": {
+    "postcss": "^7.0.27",
+    "postcss-custom-properties": "^9.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-normalize": "^8.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-url": "^8.0.0"
   }
 }
